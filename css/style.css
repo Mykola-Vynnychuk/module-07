@@ -309,14 +309,13 @@ body {
   background-color: rgb(34, 34, 34);
   background-image: url(../img/map.png);
   background-repeat: no-repeat;
-  background-position: 100% 85%;
+  background-position: 100% 80%;
+  max-width: 1400px;
+  margin: 0 auto;
 }
 
 .contact .header-second {
   color: white;
-}
-
-.contact-form {
 }
 
 .contact-form-container {
@@ -328,9 +327,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.contact-form-item {
 }
 
 .contact-form-input,
@@ -387,4 +383,5 @@ body {
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   background-color: rgb(254, 209, 54);
+  cursor: pointer;
 }
