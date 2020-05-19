@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module 07</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navigation">
+        <a href="#" class="logo-link"><img src="./img/golden.png" alt="Logo Golden" height="28" width="79"
+            class="logo"></a>
+        <ul class="main-menu">
+          <li class="main-menu-item">
+            <a href="#" class="main-menu-link">Home</a></li>
+          <li class="main-menu-item">
+            <a href="#" class="main-menu-link">Services</a></li>
+          <li class="main-menu-item">
+            <a href="#" class="main-menu-link">Portfolio</a></li>
+          <li class="main-menu-item">
+            <a href="#" class="main-menu-link">About</a></li>
+          <li class="main-menu-item">
+            <a href="#" class="main-menu-link">Contact</a></li>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="services">
+      <div class="container flex-vertical">
+        <h2 class="header-second">Services</h2>
+        <p class="header-second-paragraph">Proin iaculis purus consequat sem cure.</p>
+        <ul class="services-list flex-horizontal">
+          <li class="services-item services-item-basket flex-vertical">
+            <h3 class="header-tree">E-Commerce</h3>
+            <p class="header-tree-paragraph">Proin iaculis purus consequat sem cure
+              digni ssim. Donec porttitora entum suscipit
+              aenean rhoncus posuere odio in tincidunt.</p>
+          </li>
+          <li class="services-item services-item-noutbook flex-vertical">
+            <h3 class="header-tree">Responsive Web</h3>
+            <p class="header-tree-paragraph">Proin iaculis purus consequat sem cure
+              digni ssim. Donec porttitora entum suscipit
+              aenean rhoncus posuere odio in tincidunt.</p>
+          </li>
+          <li class="services-item services-item-close flex-vertical">
+            <h3 class="header-tree">Web Security</h3>
+            <p class="header-tree-paragraph">Proin iaculis purus consequat sem cure
+              digni ssim. Donec porttitora entum suscipit
+              aenean rhoncus posuere odio in tincidunt.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container flex-vertical">
+        <h2 class="header-second">Contact us</h2>
+        <p class="header-second-paragraph">Proin iaculis purus consequat sem cure.</p>
+        <form action="#" class="contact-form flex-vertical">
+          <div class="contact-form-container flex-horizontal">
+            <ul class="contact-form-list">
+              <li class="contact-form-item"><input type="text" name="user_name" placeholder="your Name *" required
+                  minlength="2" class="contact-form-input contact-form-input-name"></li>
+              <li class="contact-form-item"><input type="email" name="user_email" placeholder="your e-mail *" required
+                  class="contact-form-input"></li>
+              <li class="contact-form-item"><input type="text" placeholder="subject" name="user_suject"
+                  class="contact-form-input">
+              </li>
+            </ul>
+            <textarea name="user_message" id="" cols="50" rows="10" placeholder="Your message *" required minlength="5"
+              maxlength="512" class="contact-form-message"></textarea>
+          </div>
+          <button type="submit" class="contact-form-button">Send Message</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>
